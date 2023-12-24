@@ -65,7 +65,7 @@ export default function AddRoutine() {
               <Link
                 to="#"
                 type="submit"
-                className="col-span-2 w-full inline-flex items-center justify-center rounded-md bg-primary py-4 px-10 text-center font-medium text-white hover:bg-opacity-90 lg:px-8 xl:px-10"
+                className="col-span-2 w-full inline-flex items-center justify-center rounded-md bg-meta-5 py-4 px-10 text-center font-medium text-white hover:bg-opacity-90 lg:px-8 xl:px-10"
               >
                 submit
               </Link>

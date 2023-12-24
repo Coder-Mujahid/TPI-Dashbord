@@ -2,8 +2,9 @@ import { lazy } from 'react';
 
 const Calendar = lazy(() => import('../pages/Calendar'));
 const Chart = lazy(() => import('../pages/Chart'));
-const FormElements = lazy(() => import('../pages/Form/Addteacher'));
-const FormLayout = lazy(() => import('../pages/Form/AddNotice'));
+const Addteacher = lazy(() => import('../pages/Form/Addteacher'));
+const AddNotice = lazy(() => import('../pages/Form/AddNotice'));
+const AddRoutine = lazy(() => import('../pages/Form/AddRoutine'));
 const Profile = lazy(() => import('../pages/Profile'));
 const Settings = lazy(() => import('../pages/Settings'));
 const Tables = lazy(() => import('../pages/Tables'));
@@ -22,14 +23,19 @@ const coreRoutes = [
     component: Profile,
   },
   {
-    path: '/forms/form-elements',
-    title: 'Forms Elements',
-    component: FormElements,
+    path: '/forms/Add-teacher',
+    title: 'Add teacher',
+    component: Addteacher,
   },
   {
-    path: '/forms/form-layout',
-    title: 'Form Layouts',
-    component: FormLayout,
+    path: '/forms/Add-Notice',
+    title: 'Add Notice',
+    component: AddNotice,
+  },
+  {
+    path: '/forms/Add-Routine',
+    title: 'Add-Routine',
+    component: AddRoutine,
   },
   {
     path: '/tables',
