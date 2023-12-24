@@ -5,6 +5,7 @@ const Chart = lazy(() => import('../pages/Chart'));
 const Addteacher = lazy(() => import('../pages/Form/Addteacher'));
 const AddNotice = lazy(() => import('../pages/Form/AddNotice'));
 const AddRoutine = lazy(() => import('../pages/Form/AddRoutine'));
+const SuccessfulStudent = lazy(() => import('../pages/Form/SuccessfulStudent'));
 const Profile = lazy(() => import('../pages/Profile'));
 const Settings = lazy(() => import('../pages/Settings'));
 const Tables = lazy(() => import('../pages/Tables'));
@@ -36,6 +37,11 @@ const coreRoutes = [
     path: '/forms/Add-Routine',
     title: 'Add-Routine',
     component: AddRoutine,
+  },
+  {
+    path: '/forms/Successful-Student',
+    title: 'Add-Successful-Student',
+    component: SuccessfulStudent,
   },
   {
     path: '/tables',

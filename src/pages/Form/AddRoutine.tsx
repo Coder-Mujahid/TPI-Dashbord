@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 export default function AddRoutine() {
   return (
     <>
-      <Breadcrumb pageName="Add Notice" />
+      <Breadcrumb pageName="Add Routine" />
 
       <div className="">
         <div className="flex flex-col gap-9">
@@ -12,7 +12,7 @@ export default function AddRoutine() {
           <div className="rounded-sm border border-stroke bg-white shadow-default dark:border-strokedark dark:bg-boxdark">
             <div className="border-b border-stroke py-4 px-6.5 dark:border-strokedark">
               <h3 className="font-medium text-black dark:text-white">
-                Contact Form
+              Input Fields
               </h3>
             </div>
 
@@ -21,13 +21,13 @@ export default function AddRoutine() {
               {/* ... Your form fields ... */}
               <div>
                 <label className="mb-3 block text-black dark:text-white">
-                  Notice Name
+                Routine Name
                 </label>
                 <input
                   required
                   type="text"
                   name='name'
-                  placeholder="Notice Name"
+                  placeholder="Routine Name"
                   className="w-full rounded-lg border-[1.5px] border-stroke bg-transparent py-3 px-5 font-medium outline-none transition focus:border-primary active:border-primary disabled:cursor-default disabled:bg-whiter dark:border-form-strokedark dark:bg-form-input dark:focus:border-primary"
                 />
               </div>
@@ -54,18 +54,18 @@ export default function AddRoutine() {
 
               <div>
                 <label className="mb-3 block font-medium text-black dark:text-white">
-                  Subject of notice
+                  Subject of Routine
                 </label>
                 <input
                   type="text"
-                  placeholder="Subject of notice"
+                  placeholder="Subject of Routine"
                   className="w-full rounded-lg border-[1.5px] border-stroke bg-transparent py-3 px-5 font-medium outline-none transition focus:border-primary active:border-primary disabled:cursor-default disabled:bg-whiter dark:border-form-strokedark dark:bg-form-input dark:focus:border-primary"
                 />
               </div>
               <Link
                 to="#"
                 type="submit"
-                className="col-span-2 w-full inline-flex items-center justify-center rounded-md bg-meta-5 py-4 px-10 text-center font-medium text-white hover:bg-opacity-90 lg:px-8 xl:px-10"
+                className="col-span-2 w-full inline-flex items-center justify-center rounded-md bg-primary py-4 px-10 text-center font-medium text-white hover:bg-opacity-90 lg:px-8 xl:px-10"
               >
                 submit
               </Link>

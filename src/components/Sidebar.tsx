@@ -222,6 +222,7 @@ const Sidebar = ({ sidebarOpen, setSidebarOpen }: SidebarProps) => {
                               Add teacher
                             </NavLink>
                           </li>
+
                           <li>
                             <NavLink
                               to="/forms/Add-Notice"
@@ -233,6 +234,7 @@ const Sidebar = ({ sidebarOpen, setSidebarOpen }: SidebarProps) => {
                               Add Notice
                             </NavLink>
                           </li>
+
                           <li>
                             <NavLink
                               to="/forms/Add-Routine"
@@ -242,6 +244,18 @@ const Sidebar = ({ sidebarOpen, setSidebarOpen }: SidebarProps) => {
                               }
                             >
                               Add Routine
+                            </NavLink>
+                          </li>
+
+                          <li>
+                            <NavLink
+                              to="/forms/Successful-Student"
+                              className={({ isActive }) =>
+                                'group relative flex items-center gap-2.5 rounded-md px-4 font-medium text-bodydark2 duration-300 ease-in-out hover:text-white ' +
+                                (isActive && '!text-white')
+                              }
+                            >
+                              Add Successful Student
                             </NavLink>
                           </li>
                         </ul>
