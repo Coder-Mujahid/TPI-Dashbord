@@ -23,8 +23,8 @@ Visit the [TPI Dashboard](https://tpi-dashbord.vercel.app/) to see it in action.
 
 <!-- Screenshots -->
 ## Screenshots
-![Screenshot 1](https://ibb.co/xCRw8QG)
-![Screenshot 2](https://ibb.co/z29VsfG)
+![Screenshot 1](https://i.ibb.co/vHqbTpr/tpi-Dashbord-02.png)
+![Screenshot 2](https://i.ibb.co/NZw2fBW/tpi-Dashbord-01.pn)
 
 <!-- How to Run -->
 ## How to Run
